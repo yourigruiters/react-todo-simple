@@ -1,11 +1,7 @@
-import React, { Fragment } from 'react'
+import React from "react";
 
-const Home = ({todos}) => {
-    return (
-        <Fragment>
-            
-        </Fragment>
-    )
-}
+const Home = () => {
+  return <></>;
+};
 
 export default Home;

@@ -1,5 +1,4 @@
-
-import Styled from 'styled-components'
+import Styled from "styled-components";
 
 export const StyledHeader = Styled.header`
     display: flex;
@@ -19,7 +18,7 @@ export const StyledHeader = Styled.header`
     & .active {
         font-weight: bold;
     }
-`
+`;
 
 export const StyledUl = Styled.ul`
     display: flex;
@@ -29,7 +28,7 @@ export const StyledUl = Styled.ul`
     @media (max-width: 550px) {
         justify-content: space-around;
     }
-`
+`;
 
 export const StyledLi = Styled.li`
     display: inline-block;
@@ -47,4 +46,4 @@ export const StyledLi = Styled.li`
     &:hover {
         background-color: #C1DE7A;
     }
-`
+`;
